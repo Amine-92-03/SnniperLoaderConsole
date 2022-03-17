@@ -2,7 +2,8 @@
   "name": "snniperloaderconsole",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "nodemon app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Amine-92-03/SnniperLoaderConsole/issues"
   },
-  "homepage": "https://github.com/Amine-92-03/SnniperLoaderConsole#readme"
+  "homepage": "https://github.com/Amine-92-03/SnniperLoaderConsole#readme",
+  "dependencies": {
+    "es": "^0.8.0",
+    "log-update": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+ 
 }
