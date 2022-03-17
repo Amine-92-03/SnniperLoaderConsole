@@ -18,11 +18,12 @@
   },
   "homepage": "https://github.com/Amine-92-03/SnniperLoaderConsole#readme",
   "dependencies": {
+    "cli-progress": "^3.10.0",
     "es": "^0.8.0",
-    "log-update": "^5.0.0"
+    "log-update": "^5.0.0",
+    "progress": "^2.0.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
   }
- 
 }
